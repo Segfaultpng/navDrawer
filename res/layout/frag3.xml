@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageButton
+            android:background="@android:color/holo_purple"
+            android:layout_width="165dp"
+            android:layout_height="155dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="left|top"/>
+
+    <RelativeLayout
+            android:background="#f000b6a7"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="left|bottom">
+
+        <TextView
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ambition Developers"
+                android:id="@+id/textView"/>
+    </RelativeLayout>
+
+
+</FrameLayout>
